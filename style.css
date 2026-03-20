@@ -321,19 +321,74 @@ margin-top:20px;
 flex-wrap:wrap;
 }
 
-/* ================= TOP BUTTON ================= */
+/* ================= TABLET ================= */
 
-#topBtn{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#00bfff;
-padding:10px 14px;
-border-radius:50%;
-color:black;
-transition:0.3s;
+@media (min-width:769px) and (max-width:1024px){
+
+.navbar{
+padding:20px 40px;
 }
 
-#topBtn:hover{
-box-shadow:0 6px 18px rgba(0,191,255,0.4);
+.project-container{
+grid-template-columns:repeat(2,1fr);
+}
+
+.achievement-container{
+grid-template-columns:repeat(2,1fr);
+}
+}
+/* ================= MOBILE ================= */
+
+@media (max-width:768px){
+
+/* NAVBAR */
+.navbar{
+padding:15px 20px;
+}
+
+.nav-links{
+display:none; /* hide menu for now */
+}
+
+/* HERO */
+.hero{
+height:auto;
+padding:60px 20px;
+}
+
+.hero-title{
+font-size:32px;
+}
+
+.hero-buttons{
+flex-direction:column;
+align-items:center;
+}
+
+/* SECTIONS */
+section{
+padding:60px 20px;
+}
+
+/* SKILLS */
+.skills-row{
+flex-direction:column;
+align-items:center;
+}
+
+/* PROJECTS */
+.project-container{
+grid-template-columns:1fr;
+}
+
+/* ACHIEVEMENTS */
+.achievement-container{
+grid-template-columns:1fr;
+}
+
+/* BUTTON */
+.btn{
+padding:8px 16px;
+font-size:12px;
+}
 }
