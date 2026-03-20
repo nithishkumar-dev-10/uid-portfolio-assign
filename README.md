@@ -1,4 +1,4 @@
-# 👨‍💻 Nithish Kumar – Portfolio Website
+#  Nithish Kumar – Portfolio Website
 
 A modern, responsive personal portfolio website built using HTML and CSS to showcase my skills, projects, and achievements in AI, Machine Learning, and Backend Development.
 
@@ -10,14 +10,14 @@ https://nithishkumar-dev-10.github.io/uid-portfolio-assign/
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project is designed with a clean UI, structured layout, and responsive design.  
 The website follows a modular, section-based architecture for scalability and maintainability.
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 uid-portfolio-assign/
 │
@@ -100,7 +100,7 @@ Projects included:
 
 ---
 
-## 🎨 Design System
+##  Design System
 
 - Background: #020617  
 - Card Background: #0f172a  
@@ -114,7 +114,7 @@ UI Features:
 
 ---
 
-## 📱 Responsiveness
+##  Responsiveness
 
 - Desktop → Full layout  
 - Tablet → 2-column grid  
@@ -122,7 +122,7 @@ UI Features:
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 - HTML5  
 - CSS3  
@@ -132,7 +132,7 @@ UI Features:
 
 ---
 
-## 🚀 Key Highlights
+## Key Highlights
 
 - Clean and modular structure  
 - Reusable CSS components  
