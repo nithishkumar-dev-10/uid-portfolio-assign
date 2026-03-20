@@ -43,10 +43,6 @@ gap:30px;
 list-style:none;
 }
 
-.nav-links a{
-transition:0.25s;
-}
-
 .nav-links a:hover{
 color:#00bfff;
 }
@@ -88,16 +84,15 @@ display:flex;
 gap:20px;
 }
 
-/* ================= BUTTON (UNIVERSAL) ================= */
+/* ================= BUTTON ================= */
 
 .btn{
 border:2px solid #00bfff;
-padding:12px 28px;
+padding:10px 25px;
 border-radius:30px;
 color:#00bfff;
-transition:all 0.3s ease;
+transition:0.3s;
 font-weight:500;
-display:inline-block;
 }
 
 .btn:hover{
@@ -107,7 +102,7 @@ transform:translateY(-3px);
 box-shadow:0 6px 20px rgba(0,191,255,0.4);
 }
 
-/* ================= SECTIONS ================= */
+/* ================= SECTION ================= */
 
 section{
 padding:80px;
@@ -116,33 +111,66 @@ text-align:center;
 
 /* ================= SKILLS ================= */
 
+.skills{
+background:#020617; /* same as body */
+}
+
 .skills-row{
 display:flex;
 gap:20px;
 justify-content:center;
 flex-wrap:wrap;
-margin-top:30px;
+margin-top:40px;
 }
 
 .skill-card{
 background:#0f172a;
-padding:20px;
-width:200px;
-border-radius:12px;
+padding:25px 20px;
+width:230px;
+border-radius:14px;
 border:1px solid #1e293b;
-transition:0.25s;
+transition:0.3s;
 }
 
 .skill-card:hover{
 background:#0b2440;
 border-color:#00bfff;
-box-shadow:0 6px 18px rgba(0,191,255,0.2);
-transform:translateY(-4px);
+box-shadow:0 10px 30px rgba(0,191,255,0.2);
+transform:translateY(-5px);
 }
+
+.skill-card h3{
+color:#38bdf8;
+margin-bottom:15px;
+}
+
+/* 🔥 SKILL PILLS */
 
 .skill-content{
 list-style:none;
-margin-top:10px;
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:10px;
+}
+
+.skill-pill{
+padding:7px 16px;
+border-radius:25px;
+border:1px solid #00bfff55;
+color:#38bdf8;
+background:#00bfff15;
+font-size:13px;
+transition:0.25s;
+min-width:140px;
+text-align:center;
+}
+
+.skill-pill:hover{
+background:#00bfff;
+color:#021024;
+box-shadow:0 6px 18px rgba(0,191,255,0.4);
+transform:scale(1.05);
 }
 
 /* ================= PROJECTS ================= */
@@ -160,7 +188,7 @@ padding:20px;
 border-radius:12px;
 border:1px solid #1e293b;
 text-align:left;
-transition:0.25s;
+transition:0.3s;
 }
 
 .project-card:hover{
@@ -180,7 +208,7 @@ font-size:14px;
 }
 
 .tech{
-margin-top:10px;
+margin:10px 0;
 }
 
 .tech span{
@@ -209,7 +237,7 @@ background:#0f172a;
 padding:20px;
 border-radius:12px;
 border:1px solid #1e293b;
-transition:0.25s;
+transition:0.3s;
 }
 
 .achievement-card:hover{
@@ -236,7 +264,7 @@ margin-top:20px;
 flex-wrap:wrap;
 }
 
-/* ================= BACK TO TOP ================= */
+/* ================= TOP BUTTON ================= */
 
 #topBtn{
 position:fixed;
@@ -246,7 +274,7 @@ background:#00bfff;
 padding:10px 14px;
 border-radius:50%;
 color:black;
-transition:0.25s;
+transition:0.3s;
 }
 
 #topBtn:hover{
