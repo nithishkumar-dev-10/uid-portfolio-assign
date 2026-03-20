@@ -256,35 +256,59 @@ box-shadow:0 4px 12px rgba(0,191,255,0.3);
 
 /* ================= ACHIEVEMENTS ================= */
 
+/* ================= ACHIEVEMENTS ================= */
+
 .achievement-container{
-display:flex;
-gap:20px;
-justify-content:center;
-flex-wrap:wrap;
-margin-top:30px;
+display:grid; /* 🔥 change from flex → grid */
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px; /* more spacing */
+margin-top:40px;
 }
 
 .achievement-card{
-width:260px;
 background:#0f172a;
-padding:20px;
-border-radius:12px;
+padding:24px;
+border-radius:14px;
 border:1px solid #1e293b;
 transition:0.3s;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+text-align:center;
+
+min-height:260px; /* 🔥 equal height */
 }
 
 .achievement-card:hover{
 background:#0b2440;
 border-color:#00bfff;
-box-shadow:0 6px 18px rgba(0,191,255,0.2);
-transform:translateY(-4px);
+box-shadow:0 10px 25px rgba(0,191,255,0.2);
+transform:translateY(-6px);
 }
 
 .achievement-card img{
 width:100%;
-height:140px;
-object-fit:contain;
-margin-bottom:10px;
+height:160px;
+object-fit:contain; /* 🔥 show full image */
+background:#020617; /* fills empty space nicely */
+border-radius:10px;
+margin-bottom:12px;
+padding:6px; /* optional for clean spacing */
+}
+
+/* text spacing */
+
+.achievement-card h3{
+color:#38bdf8;
+margin-bottom:6px;
+font-size:16px;
+}
+
+.achievement-card p{
+color:#9ca3af;
+font-size:14px;
+line-height:1.5;
 }
 
 /* ================= CONTACT ================= */
