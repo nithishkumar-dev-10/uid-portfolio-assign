@@ -4,7 +4,6 @@ A modern, responsive personal portfolio website built using HTML and CSS to show
 
 ---
 
-
 ## 🌐 Live Website
 
 https://nithishkumar-dev-10.github.io/uid-portfolio-assign/
