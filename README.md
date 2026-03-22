@@ -1,6 +1,8 @@
 #  Nithish Kumar – Portfolio Website
 
-A modern, responsive personal portfolio website built using HTML and CSS to showcase my skills, projects, and achievements in AI, Machine Learning, and Backend Development.
+A modern, responsive personal portfolio website built using HTML and CSS to showcase my skills, projects, and achievements in AI, Machine 
+Learning, and Backend Development.
+
 
 ---
 
