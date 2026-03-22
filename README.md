@@ -10,7 +10,6 @@ Learning, and Backend Development.
 https://nithishkumar-dev-10.github.io/uid-portfolio-assign/
 
 ---
-
 ##  Overview
 
 This project is designed with a clean UI, structured layout, and responsive design.  
